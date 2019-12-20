@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Opkey6XProjectSchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ProjectID="13c8a49d-8215-450f-8b33-e562c6ce3e35" Name="lakhan_test007">
+  <AuditTrailLevel>HighLevel</AuditTrailLevel>
+  <Mode>Team</Mode>
+  <IsEncryptionModeOn>true</IsEncryptionModeOn>
+  <EncryptionPassword>j2imds63rE32MKCJw3yZvfI4EWBZFQXOGNfd2qWCAg5JBDLeQCRmTeFWr1OZm0Ta</EncryptionPassword>
+  <Salt>FtmSQTBgWHRU</Salt>
+  <MaxParallelRunAllowed>10</MaxParallelRunAllowed>
+  <MaxParallelRunOnBrowserStack>2</MaxParallelRunOnBrowserStack>
+  <MaxParallelRunOnSauceLabs>2</MaxParallelRunOnSauceLabs>
+  <SessionLimit>0</SessionLimit>
+  <Plugins>
+    <Plugin>Selenium WebDriver</Plugin>
+    <Plugin>Web</Plugin>
+    <Plugin>OpKey OracleEBS</Plugin>
+    <Plugin>Sikuli</Plugin>
+    <Plugin>UFT</Plugin>
+    <Plugin>OpKeyMobility-Android</Plugin>
+    <Plugin>Appium</Plugin>
+    <Plugin>OpKeyDesktop</Plugin>
+    <Plugin>Utility</Plugin>
+    <Plugin>Salesforce</Plugin>
+    <Plugin>OpKey-IE-Plugin</Plugin>
+    <Plugin>Workday</Plugin>
+    <Plugin>OracleFusion</Plugin>
+    <Plugin>OpKeyJava</Plugin>
+    <Plugin>OpKeyMobility-iOS</Plugin>
+    <Plugin>PeopleSoft</Plugin>
+    <Plugin>Mainframe</Plugin>
+  </Plugins>
+</Opkey6XProjectSchema>
