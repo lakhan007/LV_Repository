@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<ComponentSchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ImportedArtifacts />
+  <MetaInformation>
+    <DescriptionRTF />
+    <ExpectedResult />
+    <IsShared>false</IsShared>
+    <IsAutoCreated>false</IsAutoCreated>
+  </MetaInformation>
+  <TestSteps>
+    <TestStep>
+      <ContinueOnError>true</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>true</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/OpenBrowser</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>Browser</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:string">chrome</StaticValue>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>URL</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:string">https://google.com</StaticValue>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+  </TestSteps>
+  <InputParameters />
+  <OutputParameters />
+</ComponentSchema>
