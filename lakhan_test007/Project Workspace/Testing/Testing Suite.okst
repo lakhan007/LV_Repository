@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<SuiteSchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ImportedArtifacts>
+    <ImportSectionDTO>
+      <Name>4E176428BF3B7B51B479934227CBDE27</Name>
+      <Value>Project Workspace/Testing/Testing TC.oktc</Value>
+    </ImportSectionDTO>
+  </ImportedArtifacts>
+  <MetaInformation>
+    <DescriptionRTF />
+    <ExpectedResult />
+    <IsShared>false</IsShared>
+    <IsAutoCreated>false</IsAutoCreated>
+  </MetaInformation>
+  <FlowSteps>
+    <SuiteStep>
+      <Name>Testing TC</Name>
+      <ShouldRun>true</ShouldRun>
+      <UseDatasheet>false</UseDatasheet>
+      <Flow_RelativePath>4E176428BF3B7B51B479934227CBDE27</Flow_RelativePath>
+      <BDD_RelativePath />
+      <BPGroup_RelativePath />
+      <Sparkin_RelativePath />
+      <Type>Keyword</Type>
+    </SuiteStep>
+  </FlowSteps>
+</SuiteSchema>

@@ -1,0 +1,299 @@
+<?xml version="1.0"?>
+<ComponentSchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ImportedArtifacts>
+    <ImportSectionDTO>
+      <Name>DCA6851CC3A1389F12E5D1ACA519BF25</Name>
+      <Value>Project Workspace/Testing/Testing OR.okor</Value>
+    </ImportSectionDTO>
+  </ImportedArtifacts>
+  <MetaInformation>
+    <DescriptionRTF />
+    <ExpectedResult />
+    <IsShared>false</IsShared>
+    <IsAutoCreated>false</IsAutoCreated>
+  </MetaInformation>
+  <TestSteps>
+    <TestStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/OpenBrowser</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>Browser</Name>
+          <DataSource>ValueFromGlobalVariable</DataSource>
+          <GV_RelativePath>GlobalVariables/Default Browser</GV_RelativePath>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>URL</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:string">https://www.apple.com/</StaticValue>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/ClickLink</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>Object</Name>
+          <DataSource>StaticValue</DataSource>
+          <Obj_RelativePath>DCA6851CC3A1389F12E5D1ACA519BF25/Apple/Manage Your Apple ID</Obj_RelativePath>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/SelectWindow</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>Title</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:string">Manage your Apple ID - Apple</StaticValue>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>TitleIndex</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:int">0</StaticValue>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/SyncBrowser</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs />
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/ClickLink</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>Object</Name>
+          <DataSource>StaticValue</DataSource>
+          <Obj_RelativePath>DCA6851CC3A1389F12E5D1ACA519BF25/Manage your Apple ID - Apple/Create Your Apple ID</Obj_RelativePath>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/SelectWindow</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>Title</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:string">Create Your Apple ID - Apple</StaticValue>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>TitleIndex</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:int">0</StaticValue>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/SyncBrowser</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs />
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/TypeTextOnEditBox</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>Object</Name>
+          <DataSource>StaticValue</DataSource>
+          <Obj_RelativePath>DCA6851CC3A1389F12E5D1ACA519BF25/Create Your Apple ID - Apple/input-1576823798671-1</Obj_RelativePath>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Value</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:string">dgfdgf</StaticValue>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/TypeTextOnEditBox</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>Object</Name>
+          <DataSource>StaticValue</DataSource>
+          <Obj_RelativePath>DCA6851CC3A1389F12E5D1ACA519BF25/Create Your Apple ID - Apple/input-1576823798691-0</Obj_RelativePath>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Value</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:string">dgfgfddgf</StaticValue>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/TypeTextOnEditBox</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>Object</Name>
+          <DataSource>StaticValue</DataSource>
+          <Obj_RelativePath>DCA6851CC3A1389F12E5D1ACA519BF25/Create Your Apple ID - Apple/input-1576823799114-1</Obj_RelativePath>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Value</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:string">fdgdfdfg</StaticValue>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/TypeSecureText</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>Object</Name>
+          <DataSource>StaticValue</DataSource>
+          <Obj_RelativePath>DCA6851CC3A1389F12E5D1ACA519BF25/Create Your Apple ID - Apple/password</Obj_RelativePath>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Value</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:string">[X,1,nqZ6jsvj733G]IopBH59vE9mKo9nab3Ic4A==</StaticValue>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/TypeSecureText</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>Object</Name>
+          <DataSource>StaticValue</DataSource>
+          <Obj_RelativePath>DCA6851CC3A1389F12E5D1ACA519BF25/Create Your Apple ID - Apple/input-1576823799144-1</Obj_RelativePath>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Value</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:string">[X,1,2DzVcT7eOqwG]9b8NtH5aKDdzfC9wR+GGjw==</StaticValue>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/TypeTextOnEditBox</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>Object</Name>
+          <DataSource>StaticValue</DataSource>
+          <Obj_RelativePath>DCA6851CC3A1389F12E5D1ACA519BF25/Create Your Apple ID - Apple/input-1576823799197-1</Obj_RelativePath>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Value</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:string">hjhjhj</StaticValue>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+  </TestSteps>
+  <InputParameters />
+  <OutputParameters />
+</ComponentSchema>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<FlowSchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ImportedArtifacts>
+    <ImportSectionDTO>
+      <Name>B25F2B861D157A146120C0825534C66E</Name>
+      <Value>Project Workspace/Testing/Testing FL.okfl</Value>
+    </ImportSectionDTO>
+  </ImportedArtifacts>
+  <MetaInformation>
+    <DescriptionRTF />
+    <ExpectedResult />
+    <IsShared>false</IsShared>
+    <IsAutoCreated>false</IsAutoCreated>
+  </MetaInformation>
+  <FlowSteps>
+    <FlowStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Component_RelativePath>B25F2B861D157A146120C0825534C66E</Component_RelativePath>
+      <StepInputArgs />
+      <StepOutputArgs />
+    </FlowStep>
+  </FlowSteps>
+</FlowSchema>
