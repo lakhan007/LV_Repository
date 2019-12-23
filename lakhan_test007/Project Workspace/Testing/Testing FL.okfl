@@ -57,6 +57,49 @@
       </StepOutputArgs>
     </TestStep>
     <TestStep>
+      <ContinueOnError>true</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>true</WantSnapshot>
+      <Keyword_RelativePath>Utility/Excel_CreateFile</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>ExcelPath</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:string">d/</StaticValue>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>SheetName(Optional)</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:string">gchg</StaticValue>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>true</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>true</WantSnapshot>
+      <Keyword_RelativePath>ControlFlowConstruct/Sleep</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>Seconds</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:int">12</StaticValue>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
       <ContinueOnError>false</ContinueOnError>
       <IsNegative>false</IsNegative>
       <ShouldRun>true</ShouldRun>
@@ -166,11 +209,15 @@
         <TestStepInputArgument>
           <Name>Value</Name>
           <DataSource>StaticValue</DataSource>
-          <StaticValue xsi:type="xsd:string">dgfdgf</StaticValue>
+          <StaticValue xsi:type="xsd:string">fghhggh</StaticValue>
+          <OutputArgument_RelativePath>OutputArguments/out</OutputArgument_RelativePath>
         </TestStepInputArgument>
       </StepInputArgs>
       <StepOutputArgs>
-        <TestStepOutputArgument />
+        <TestStepOutputArgument>
+          <OutputVariableName />
+          <ParameterName />
+        </TestStepOutputArgument>
       </StepOutputArgs>
     </TestStep>
     <TestStep>
@@ -190,7 +237,8 @@
         <TestStepInputArgument>
           <Name>Value</Name>
           <DataSource>StaticValue</DataSource>
-          <StaticValue xsi:type="xsd:string">dgfgfddgf</StaticValue>
+          <StaticValue xsi:type="xsd:string">ffsddsfsdf</StaticValue>
+          <OutputArgument_RelativePath>OutputArguments/OUT</OutputArgument_RelativePath>
         </TestStepInputArgument>
       </StepInputArgs>
       <StepOutputArgs>
