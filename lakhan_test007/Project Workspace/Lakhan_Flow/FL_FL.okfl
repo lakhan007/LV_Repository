@@ -1,0 +1,378 @@
+<?xml version="1.0"?>
+<ComponentSchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ImportedArtifacts>
+    <ImportSectionDTO>
+      <Name>230FC530B7A52E6E5ACFE7C2E3EE0C2C</Name>
+      <Value>Project Workspace/Lakhan_Flow/FL.okfl</Value>
+    </ImportSectionDTO>
+  </ImportedArtifacts>
+  <MetaInformation>
+    <DescriptionRTF />
+    <ExpectedResult />
+    <IsShared>false</IsShared>
+    <IsAutoCreated>false</IsAutoCreated>
+  </MetaInformation>
+  <TestSteps>
+    <TestStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>STR_Input</Name>
+          <DataSource>Default</DataSource>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>INT_INPUT</Name>
+          <DataSource>Default</DataSource>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>BOOL_Input</Name>
+          <DataSource>Default</DataSource>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Double_Input</Name>
+          <DataSource>Default</DataSource>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+      <Component_RelativePath>230FC530B7A52E6E5ACFE7C2E3EE0C2C</Component_RelativePath>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>true</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>true</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/OpenBrowser</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>Browser</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:string">chrome</StaticValue>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>URL</Name>
+          <DataSource>ValueFromGlobalVariable</DataSource>
+          <GV_RelativePath>GlobalVariables/URL</GV_RelativePath>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument>
+          <OutputVariableName>1</OutputVariableName>
+          <ParameterName>Output</ParameterName>
+        </TestStepOutputArgument>
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>true</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>true</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/CloseAllBrowsers</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs />
+      <StepOutputArgs>
+        <TestStepOutputArgument>
+          <OutputVariableName>2</OutputVariableName>
+          <ParameterName>Output</ParameterName>
+        </TestStepOutputArgument>
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>STR_Input</Name>
+          <DataSource>ValueFromInputParameter</DataSource>
+          <InputParameter_RelativePath>InputArguments/A</InputParameter_RelativePath>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>INT_INPUT</Name>
+          <DataSource>ValueFromInputParameter</DataSource>
+          <InputParameter_RelativePath>InputArguments/C</InputParameter_RelativePath>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>BOOL_Input</Name>
+          <DataSource>ValueFromInputParameter</DataSource>
+          <InputParameter_RelativePath>InputArguments/B</InputParameter_RelativePath>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Double_Input</Name>
+          <DataSource>ValueFromInputParameter</DataSource>
+          <InputParameter_RelativePath>InputArguments/D</InputParameter_RelativePath>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+      <Component_RelativePath>230FC530B7A52E6E5ACFE7C2E3EE0C2C</Component_RelativePath>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>true</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>true</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/OpenBrowser</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>Browser</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:string">chrome</StaticValue>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>URL</Name>
+          <DataSource>ValueFromGlobalVariable</DataSource>
+          <GV_RelativePath>GlobalVariables/URL</GV_RelativePath>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>true</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>true</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/CloseAllBrowsers</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs />
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>STR_Input</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:string">sweerr</StaticValue>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>INT_INPUT</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:int">122334</StaticValue>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>BOOL_Input</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:boolean">true</StaticValue>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Double_Input</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:double">334.765</StaticValue>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+      <Component_RelativePath>230FC530B7A52E6E5ACFE7C2E3EE0C2C</Component_RelativePath>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>true</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>true</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/OpenBrowser</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>Browser</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:string">chrome</StaticValue>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>URL</Name>
+          <DataSource>ValueFromGlobalVariable</DataSource>
+          <GV_RelativePath>GlobalVariables/URL</GV_RelativePath>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>true</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>true</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/CloseAllBrowsers</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs />
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>STR_Input</Name>
+          <DataSource>ValueFromGlobalVariable</DataSource>
+          <GV_RelativePath>GlobalVariables/Str_GV</GV_RelativePath>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>INT_INPUT</Name>
+          <DataSource>ValueFromGlobalVariable</DataSource>
+          <GV_RelativePath>GlobalVariables/Int_GV</GV_RelativePath>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>BOOL_Input</Name>
+          <DataSource>ValueFromGlobalVariable</DataSource>
+          <GV_RelativePath>GlobalVariables/Bool_GV</GV_RelativePath>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Double_Input</Name>
+          <DataSource>ValueFromGlobalVariable</DataSource>
+          <GV_RelativePath>GlobalVariables/Double_GV</GV_RelativePath>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+      <Component_RelativePath>230FC530B7A52E6E5ACFE7C2E3EE0C2C</Component_RelativePath>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>true</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>true</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/OpenBrowser</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>Browser</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:string">chrome</StaticValue>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>URL</Name>
+          <DataSource>ValueFromGlobalVariable</DataSource>
+          <GV_RelativePath>GlobalVariables/URL</GV_RelativePath>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>true</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>true</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/CloseAllBrowsers</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs />
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>true</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>true</WantSnapshot>
+      <Keyword_RelativePath />
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>STR_Input</Name>
+          <DataSource>ValueFromOutputArgument</DataSource>
+          <OutputArgument_RelativePath>OutputArguments/1</OutputArgument_RelativePath>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>INT_INPUT</Name>
+          <DataSource>ValueFromOutputArgument</DataSource>
+          <OutputArgument_RelativePath>OutputArguments/2</OutputArgument_RelativePath>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>BOOL_Input</Name>
+          <DataSource>ValueFromOutputArgument</DataSource>
+          <OutputArgument_RelativePath>OutputArguments/1</OutputArgument_RelativePath>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Double_Input</Name>
+          <DataSource>ValueFromOutputArgument</DataSource>
+          <OutputArgument_RelativePath>OutputArguments/2</OutputArgument_RelativePath>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+      <Component_RelativePath>230FC530B7A52E6E5ACFE7C2E3EE0C2C</Component_RelativePath>
+    </TestStep>
+  </TestSteps>
+  <InputParameters>
+    <ComponentInputParameter>
+      <Name>A</Name>
+      <DefaultValues>
+        <anyType xsi:type="xsd:string">aaaa</anyType>
+      </DefaultValues>
+      <IsMandatory>true</IsMandatory>
+      <Type>String</Type>
+    </ComponentInputParameter>
+    <ComponentInputParameter>
+      <Name>B</Name>
+      <DefaultValues>
+        <anyType xsi:type="xsd:boolean">true</anyType>
+      </DefaultValues>
+      <IsMandatory>true</IsMandatory>
+      <Type>Boolean</Type>
+    </ComponentInputParameter>
+    <ComponentInputParameter>
+      <Name>C</Name>
+      <DefaultValues>
+        <anyType xsi:type="xsd:int">22</anyType>
+      </DefaultValues>
+      <IsMandatory>true</IsMandatory>
+      <Type>Integer</Type>
+    </ComponentInputParameter>
+    <ComponentInputParameter>
+      <Name>D</Name>
+      <DefaultValues>
+        <anyType xsi:type="xsd:double">44.33</anyType>
+      </DefaultValues>
+      <IsMandatory>true</IsMandatory>
+      <Type>Double</Type>
+    </ComponentInputParameter>
+  </InputParameters>
+  <OutputParameters />
+</ComponentSchema>

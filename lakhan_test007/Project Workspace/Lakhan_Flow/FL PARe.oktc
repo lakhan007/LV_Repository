@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<FlowSchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ImportedArtifacts>
+    <ImportSectionDTO>
+      <Name>230FC530B7A52E6E5ACFE7C2E3EE0C2C</Name>
+      <Value>Project Workspace/Lakhan_Flow/FL.okfl</Value>
+    </ImportSectionDTO>
+  </ImportedArtifacts>
+  <MetaInformation>
+    <DescriptionRTF />
+    <ExpectedResult />
+    <IsShared>false</IsShared>
+    <IsAutoCreated>false</IsAutoCreated>
+  </MetaInformation>
+  <FlowSteps>
+    <FlowStep>
+      <ContinueOnError>true</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>true</WantSnapshot>
+      <Component_RelativePath>230FC530B7A52E6E5ACFE7C2E3EE0C2C</Component_RelativePath>
+      <StepInputArgs>
+        <FlowStepInputArgument>
+          <Name>STR_Input</Name>
+          <DataSource>Default</DataSource>
+        </FlowStepInputArgument>
+        <FlowStepInputArgument>
+          <Name>INT_INPUT</Name>
+          <DataSource>Default</DataSource>
+        </FlowStepInputArgument>
+        <FlowStepInputArgument>
+          <Name>BOOL_Input</Name>
+          <DataSource>Default</DataSource>
+        </FlowStepInputArgument>
+        <FlowStepInputArgument>
+          <Name>Double_Input</Name>
+          <DataSource>Default</DataSource>
+        </FlowStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <FlowStepOutputArgument />
+        <FlowStepOutputArgument />
+      </StepOutputArgs>
+    </FlowStep>
+  </FlowSteps>
+</FlowSchema>

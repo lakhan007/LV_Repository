@@ -1,0 +1,258 @@
+<?xml version="1.0"?>
+<ComponentSchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ImportedArtifacts>
+    <ImportSectionDTO>
+      <Name>B16E2E176EE9EC5000CD174B803026E3</Name>
+      <Value>Project Workspace/Lakhan_Flow/OR.okor</Value>
+    </ImportSectionDTO>
+  </ImportedArtifacts>
+  <MetaInformation>
+    <DescriptionRTF />
+    <ExpectedResult />
+    <IsShared>false</IsShared>
+    <IsAutoCreated>false</IsAutoCreated>
+  </MetaInformation>
+  <TestSteps>
+    <TestStep>
+      <ContinueOnError>true</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>true</WantSnapshot>
+      <Keyword_RelativePath>ControlFlowConstruct/For</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>Iteration</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:int">5</StaticValue>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>true</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>true</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/OpenBrowser</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>Browser</Name>
+          <DataSource>ValueFromGlobalVariable</DataSource>
+          <GV_RelativePath>GlobalVariables/Default Browser</GV_RelativePath>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>URL</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:string">http://www.cresconnect.crestechglobal.com</StaticValue>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument>
+          <OutputVariableName>op1</OutputVariableName>
+          <ParameterName>Output</ParameterName>
+        </TestStepOutputArgument>
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>true</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>true</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/TypeTextOnEditBox</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>Object</Name>
+          <DataSource>StaticValue</DataSource>
+          <Obj_RelativePath>B16E2E176EE9EC5000CD174B803026E3/CresConnect/username</Obj_RelativePath>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Value</Name>
+          <DataSource>ValueFromOutputArgument</DataSource>
+          <OutputArgument_RelativePath>OutputArguments/op1</OutputArgument_RelativePath>
+          <InputParameter_RelativePath>InputArguments/STR_Input</InputParameter_RelativePath>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>true</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>true</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/TypeSecureText</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>Object</Name>
+          <DataSource>StaticValue</DataSource>
+          <Obj_RelativePath>B16E2E176EE9EC5000CD174B803026E3/CresConnect/password</Obj_RelativePath>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>Value</Name>
+          <DataSource>ValueFromInputParameter</DataSource>
+          <OutputArgument_RelativePath>OutputArguments/op1</OutputArgument_RelativePath>
+          <InputParameter_RelativePath>InputArguments/STR_Input</InputParameter_RelativePath>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>true</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>true</WantSnapshot>
+      <Keyword_RelativePath>SystemKeyword/StringConcat</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>String1</Name>
+          <DataSource>ValueFromGlobalVariable</DataSource>
+          <GV_RelativePath>GlobalVariables/Str_GV</GV_RelativePath>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>String2</Name>
+          <DataSource>ValueFromGlobalVariable</DataSource>
+          <GV_RelativePath>GlobalVariables/Bool_GV</GV_RelativePath>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>String3</Name>
+          <DataSource>ValueFromGlobalVariable</DataSource>
+          <GV_RelativePath>GlobalVariables/Int_GV</GV_RelativePath>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>String4</Name>
+          <DataSource>ValueFromGlobalVariable</DataSource>
+          <GV_RelativePath>GlobalVariables/Double_GV</GV_RelativePath>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>String5</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:string">&lt;iframe&gt;</StaticValue>
+          <InputParameter_RelativePath>InputArguments/STR_Input</InputParameter_RelativePath>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument>
+          <OutputVariableName>op2</OutputVariableName>
+          <ParameterName>Output</ParameterName>
+        </TestStepOutputArgument>
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>true</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>true</WantSnapshot>
+      <Keyword_RelativePath>SystemKeyword/StringConcat</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs>
+        <TestStepInputArgument>
+          <Name>String1</Name>
+          <DataSource>ValueFromInputParameter</DataSource>
+          <InputParameter_RelativePath>InputArguments/INT_INPUT</InputParameter_RelativePath>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>String2</Name>
+          <DataSource>ValueFromInputParameter</DataSource>
+          <InputParameter_RelativePath>InputArguments/BOOL_Input</InputParameter_RelativePath>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>String3</Name>
+          <DataSource>ValueFromInputParameter</DataSource>
+          <InputParameter_RelativePath>InputArguments/Double_Input</InputParameter_RelativePath>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>String4</Name>
+          <DataSource>ValueFromInputParameter</DataSource>
+          <OutputArgument_RelativePath>OutputArguments/op1</OutputArgument_RelativePath>
+          <InputParameter_RelativePath>InputArguments/STR_Input</InputParameter_RelativePath>
+        </TestStepInputArgument>
+        <TestStepInputArgument>
+          <Name>String5</Name>
+          <DataSource>ValueFromOutputArgument</DataSource>
+          <OutputArgument_RelativePath>OutputArguments/op2</OutputArgument_RelativePath>
+        </TestStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <TestStepOutputArgument>
+          <OutputVariableName>op</OutputVariableName>
+          <ParameterName>Output</ParameterName>
+        </TestStepOutputArgument>
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>true</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>true</WantSnapshot>
+      <Keyword_RelativePath>ControlFlowConstruct/Next</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs />
+      <StepOutputArgs>
+        <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+  </TestSteps>
+  <InputParameters>
+    <ComponentInputParameter>
+      <Name>STR_Input</Name>
+      <DefaultValues>
+        <anyType xsi:type="xsd:string">evfrsdrf</anyType>
+      </DefaultValues>
+      <IsMandatory>true</IsMandatory>
+      <Type>String</Type>
+    </ComponentInputParameter>
+    <ComponentInputParameter>
+      <Name>INT_INPUT</Name>
+      <DefaultValues>
+        <anyType xsi:type="xsd:int">22</anyType>
+      </DefaultValues>
+      <IsMandatory>true</IsMandatory>
+      <Type>Integer</Type>
+    </ComponentInputParameter>
+    <ComponentInputParameter>
+      <Name>BOOL_Input</Name>
+      <DefaultValues>
+        <anyType xsi:type="xsd:boolean">true</anyType>
+      </DefaultValues>
+      <IsMandatory>true</IsMandatory>
+      <Type>Boolean</Type>
+    </ComponentInputParameter>
+    <ComponentInputParameter>
+      <Name>Double_Input</Name>
+      <DefaultValues>
+        <anyType xsi:type="xsd:double">222.33</anyType>
+      </DefaultValues>
+      <IsMandatory>true</IsMandatory>
+      <Type>Double</Type>
+    </ComponentInputParameter>
+  </InputParameters>
+  <OutputParameters>
+    <ComponentOutputParameter>
+      <Name>output-parameter-1</Name>
+      <Type>String</Type>
+      <ComponentStep_OutputArg>StepOutput/op1</ComponentStep_OutputArg>
+    </ComponentOutputParameter>
+    <ComponentOutputParameter>
+      <Name>output-parameter-2</Name>
+      <Type>String</Type>
+      <ComponentStep_OutputArg>StepOutput/op2</ComponentStep_OutputArg>
+    </ComponentOutputParameter>
+  </OutputParameters>
+</ComponentSchema>

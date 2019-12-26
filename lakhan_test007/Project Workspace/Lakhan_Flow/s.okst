@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<SuiteSchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ImportedArtifacts>
+    <ImportSectionDTO>
+      <Name>76E9BF730A4AF9E8E036FDEABFBF0050</Name>
+      <Value>Project Workspace/Lakhan_Flow/fl-tc.oktc</Value>
+    </ImportSectionDTO>
+  </ImportedArtifacts>
+  <MetaInformation>
+    <DescriptionRTF />
+    <ExpectedResult />
+    <IsShared>false</IsShared>
+    <IsAutoCreated>false</IsAutoCreated>
+  </MetaInformation>
+  <FlowSteps>
+    <SuiteStep>
+      <Name>fl-tc</Name>
+      <ShouldRun>true</ShouldRun>
+      <UseDatasheet>false</UseDatasheet>
+      <Flow_RelativePath>76E9BF730A4AF9E8E036FDEABFBF0050</Flow_RelativePath>
+      <BDD_RelativePath />
+      <BPGroup_RelativePath />
+      <Sparkin_RelativePath />
+      <Type>Keyword</Type>
+    </SuiteStep>
+  </FlowSteps>
+</SuiteSchema>
